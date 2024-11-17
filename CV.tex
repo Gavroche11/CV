@@ -1,0 +1,76 @@
+\documentclass[11pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{newtxtext}
+% \usepackage{hyperref}
+\usepackage[colorlinks=true, linkcolor=blue, urlcolor=blue, citecolor=blue]{hyperref}
+
+% Setting margins
+\geometry{left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm}
+
+% Customizing section titles
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+
+\begin{document}
+
+% Header
+\begin{center}
+    \textbf{\Large Inhyeok Baek}\\
+    \vspace{0.5mm}
+    Email: \href{mailto:bih1122@snu.ac.kr}{\texttt{bih1122@snu.ac.kr}} \\
+    GitHub: \href{https://github.com/gavroche11}{\texttt{github.com/gavroche11}}
+\end{center}
+
+% Education
+\section*{Education}
+\textbf{Seoul National University, Republic of Korea} \hfill March 2020--Present \\
+\null\hfill {Expected graduation: February 2028}\smallskip \\
+Doctor of Medicine\\
+B.S. in Mathematical Sciences\\
+Cumulative GPA: 4.01/4.30
+
+% Research Experience
+\section*{Research Experience}
+\textbf{Innovative Radiology AI Laboratory} \hfill July 2024--Present\\
+Seoul National University Hospital \smallskip
+\begin{itemize}[leftmargin=*, noitemsep, topsep=0pt, label=$\cdot$]
+    \item Developing a chest X-ray report generation model.
+\end{itemize}
+\bigskip
+\textbf{Functional Neuroanatomy of Metabolism Regulation Lab} \hfill July 2021--August 2022\\
+Seoul National University College of Medicine \smallskip
+\begin{itemize}[leftmargin=*, noitemsep, topsep=0pt, label=$\cdot$]
+    \item \sloppy Participated in the analysis of animal behavioral experiment data using DeepLabCut, a deep learning library for markerless pose estimation.
+    \item Developed behavioral indices measuring goal-directed eating behaviors.
+\end{itemize}
+
+% Publications
+\section*{Publications}
+\begin{itemize}[leftmargin=*, noitemsep, topsep=0pt, label=$\cdot$]
+    \item Ha, L.J., Yeo, H.G., Kim, Y.G., et al. Hypothalamic neuronal activation in non-human primates drives naturalistic goal-directed eating behavior. {\it Neuron}, (2024). \href{https://doi.org/10.1016/j.neuron.2024.03.029}{URL}
+    \item Ha, L.J., Kim, M., Yeo, H.G., et al. Development of an assessment method for freely moving nonhuman primates' eating behavior using manual and deep learning analysis. {\it Heliyon}, (2024). \href{https://doi.org/10.1016/j.heliyon.2024.e25561}{URL}
+    \item Lee, Y.H., Kim, Y.B., Kim, K.S., et al. Lateral hypothalamic leptin receptor neurons drive hunger-gated food-seeking and consummatory behaviours in male mice. {\it Nature Communications}, (2023). \href{https://doi.org/10.1038/s41467-023-37044-4}{URL} 
+\end{itemize}
+
+% Presentations
+% \section*{Presentations}
+
+% Awards and Scholarship
+\section*{Awards and Scholarships}
+\begin{itemize}[leftmargin=*, noitemsep, topsep=0pt, label=$\cdot$]
+    \item \textit{Silver award}, Korean Mathematical Competition for Undergraduate Students (2023)
+    \item \textit{4th place}, SNU Bundang Hospital ICU Datathon (2023)
+    \item Performance-based scholarship from SNU Project Group for Education and Research in Medical AI (2023)
+\end{itemize}
+
+
+% Skills
+\section*{Skills}
+\begin{tabular}{ll}
+    Languages & Korean (native), English \\
+    Computer Languages & Python (familiar with PyTorch)
+\end{tabular}
+
+\end{document}
