@@ -1,10 +1,10 @@
 # Fdb version 4
-["xdvipdfmx"] 1733190095.41953 "CV.xdv" "CV.pdf" "CV" 1733190095.84249 0
-  "CV.xdv" 1733190095 20160 f627e2f3bbd4ec44f10cc2c4b75c03fa "xelatex"
+["xdvipdfmx"] 1733190332.90266 "CV.xdv" "CV.pdf" "CV" 1733190333.42175 0
+  "CV.xdv" 1733190332 20052 975b0b095f7d081d72f2c43fc0670c2f "xelatex"
   (generated)
   "CV.pdf"
   (rewritten before read)
-["xelatex"] 1733190093.23308 "c:/Users/Lenovo/OneDrive/home/etc/CV/CV.tex" "CV.xdv" "CV" 1733190095.83664 0
+["xelatex"] 1733190330.80811 "c:/Users/Lenovo/OneDrive/home/etc/CV/CV.tex" "CV.xdv" "CV" 1733190333.41311 0
   "C:/Users/Lenovo/AppData/Local/MiKTeX/miktex/data/le/xetex/xelatex.fmt" 1731411225 25348784 affda925803e782c566209bdf6f62e3a ""
   "C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136739854 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmmi10.tfm" 1136765053 1528 abec98dbc43e172678c11b3b9031252a ""
@@ -78,10 +78,10 @@
   "C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/tex/latex/xpatch/xpatch.sty" 1585221260 8510 7803f78066c4f9d008405191a4b43073 ""
   "C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/tex/latex/xstring/xstring.sty" 1693735632 123 a302f2c651a95033260db60e51527ae8 ""
-  "CV.aux" 1733190095 128 852fc3e86949e4a73cd552c13992dc37 "xelatex"
-  "CV.out" 1733190095 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
-  "CV.tex" 1733190092 3386 81fb6211598f21a15c25c95352acd9d7 ""
-  "c:/Users/Lenovo/OneDrive/home/etc/CV/CV.tex" 1733190092 3386 81fb6211598f21a15c25c95352acd9d7 ""
+  "CV.aux" 1733190332 128 852fc3e86949e4a73cd552c13992dc37 "xelatex"
+  "CV.out" 1733190332 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
+  "CV.tex" 1733190329 3377 902b33f062734942546ec6e76ffb60d6 ""
+  "c:/Users/Lenovo/OneDrive/home/etc/CV/CV.tex" 1733190329 3377 902b33f062734942546ec6e76ffb60d6 ""
   (generated)
   "CV.aux"
   "CV.log"

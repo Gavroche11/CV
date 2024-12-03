@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.11.12)  3 DEC 2024 10:41
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.11.12)  3 DEC 2024 10:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -522,10 +522,10 @@ Package rerunfilecheck Info: File `CV.out' has not changed.
 Here is how much of TeX's memory you used:
  12903 strings out of 408789
  249963 string characters out of 5748491
- 718154 words of memory out of 5000000
+ 718157 words of memory out of 5000000
  35681 multiletter control sequences out of 15000+600000
  561320 words of font info for 65 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 80i,6n,108p,400b,337s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 80i,6n,108p,401b,337s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on CV.xdv (1 page, 20160 bytes).
+Output written on CV.xdv (1 page, 20052 bytes).
