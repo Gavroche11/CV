@@ -4,15 +4,21 @@
 \usepackage{titlesec}
 \usepackage{enumitem}
 \usepackage{newtxtext}
-\usepackage[colorlinks=true, linkcolor=blue, urlcolor=black, citecolor=blue]{hyperref}
+\usepackage[colorlinks=true, linkcolor=black, urlcolor=black, citecolor=black]{hyperref}
+\usepackage{fontawesome5}  % For icons
+\usepackage{xcolor}
+
+% Define custom colors
+\definecolor{headercolor}{RGB}{0, 51, 102}
+\definecolor{sectioncolor}{RGB}{0, 51, 102}
 
 % Setting margins
-\geometry{left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm}
+\geometry{left=2cm, right=2cm, top=2cm, bottom=2cm}
 
-% Customizing section titles
-\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+\titleformat{\section}{\large\bfseries\color{sectioncolor}}{}{0em}{}[\titlerule]
 
-% Customizing itemize
+
+% Custom itemize environment
 \newenvironment{customitemize}
 	{\begin{itemize}[leftmargin=*, noitemsep, topsep=0pt, label=$\cdot$]}
 	{\end{itemize}}
@@ -21,30 +27,33 @@
 
 % Header
 \begin{center}
-    {\Large\textbf{Inhyeok Taylor Baek}} \\
-    \vspace{0.5mm}
-    Email: \href{mailto:bih011122@gmail.com}{\texttt{bih011122@gmail.com}} $\cdot$ \href{mailto:bih1122@snu.ac.kr}{\texttt{bih1122@snu.ac.kr}} \\
-    Phone: \texttt{+82-10-9342-8481} \\
-    GitHub: \href{https://github.com/gavroche11}{\texttt{github.com/gavroche11}}
+    {\Large\textbf{\color{headercolor}Inhyeok Taylor Baek}} \\[2mm]
+    \small
+    \faEnvelope\hspace{1mm}\href{mailto:bih011122@gmail.com}{\texttt{bih011122@gmail.com}} 
+    \hspace{2mm}$\cdot$\hspace{2mm}
+    \href{mailto:bih1122@snu.ac.kr}{\texttt{bih1122@snu.ac.kr}} \\[1mm]
+    \faPhone\hspace{1mm}\texttt{+82-10-9342-8481}
+    \hspace{2mm}$\cdot$\hspace{2mm}
+    \faGithub\hspace{1mm}\href{https://github.com/gavroche11}{\texttt{github.com/gavroche11}}
 \end{center}
 
 % Education
 \section*{Education}
 \textbf{Seoul National University} \hfill March 2020--Present \\
-Republic of Korea \hfill {Expected graduation: February 2030}\smallskip \\
+Republic of Korea \hfill Expected graduation: February 2030 \smallskip\\
 Doctor of Medicine\\
 B.S. in Mathematical Sciences \smallskip\\
 Cumulative GPA: 4.01/4.30
 
 % Research Experience
 \section*{Research Experience}
-\href{http://irail.snu.ac.kr}{\textbf{Innovative Radiology AI Laboratory}} \hfill July 2024--Present\\
+\textbf{\href{http://irail.snu.ac.kr}{Innovative Radiology AI Laboratory}} \hfill July 2024--Present\\
 Seoul National University Hospital \smallskip
 \begin{customitemize}
     \item Developing a chest X-ray report generation model, focusing on the impact of visual encoders on performance and the use of diagnosis-driven prompts.
 \end{customitemize}
 \bigskip
-\href{https://fnmr.snu.ac.kr/}{\textbf{Functional Neuroanatomy of Metabolism Regulation Lab}} \hfill July 2021--August 2022\\
+\textbf{\href{https://fnmr.snu.ac.kr/}{Functional Neuroanatomy of Metabolism Regulation Lab}} \hfill July 2021--August 2022\\
 Seoul National University College of Medicine \smallskip
 \begin{customitemize}
     \item Participated in the analysis of animal behavioral experiment data using DeepLabCut, a deep learning library for markerless pose estimation.
@@ -54,14 +63,15 @@ Seoul National University College of Medicine \smallskip
 % Publications
 \section*{Publications}
 \begin{customitemize}
-    \item \href{https://doi.org/10.1016/j.neuron.2024.03.029}{Hypothalamic neuronal activation in non-human primates drives naturalistic goal-directed eating behavior}. Ha, L.J.*, Yeo, H.-G.*, Kim, Y.G.*, {\bf Baek, I.}*, Baeg, E.*, Lee, Y.H., Won, J., Jung, Y., Park, J., Jeon, C.-Y., Kim, K., Min, J., Song, Y., Park, J.-H., Nam, K.R., Son, S., Yoo, S.B.M., Park, S., Choi, W.S., Lim, K.S., Choi, J.Y., Cho, J.-H., Lee, Y., and Choi, H.J. {\it Neuron}, 2024. 
-    \item \href{https://doi.org/10.1016/j.heliyon.2024.e25561}{Development of an assessment method for freely moving nonhuman primates' eating behavior using manual and deep learning analysis}. Ha, L.J.*, Kim, M.*, Yeo, H.-G.*, {\bf Baek, I.}, Kim, K., Lee, M., Lee, Y., and Choi, H.J. {\it Heliyon}, 2023. 
-    \item \href{https://doi.org/10.1038/s41467-023-37044-4}{Lateral hypothalamic leptin receptor neurons drive hunger-gated food-seeking and consummatory behaviours in male mice}. Lee, Y.H.*, Kim, Y.-B.*, Kim, K.S.*, Jang, M.*, Song, H.Y., Jung, S.-H., Ha, D.-S., Park, J.S., Lee, J., Kim, K.M., Cheon, D.-H., {\bf Baek, I.}, Shin, M.-G., Lee, E.J., Kim, S.J., and Choi, H.J. {\it Nature Communications}, 2023. 
+    \item \href{https://doi.org/10.1016/j.neuron.2024.03.029}{\color{sectioncolor} Hypothalamic neuronal activation in non-human primates drives naturalistic goal-directed eating behavior}. Ha, L.J.*, Yeo, H.-G.*, Kim, Y.G.*, \textbf{Baek, I.}*, Baeg, E.*, Lee, Y.H., Won, J., Jung, Y., Park, J., Jeon, C.-Y., Kim, K., Min, J., Song, Y., Park, J.-H., Nam, K.R., Son, S., Yoo, S.B.M., Park, S., Choi, W.S., Lim, K.S., Choi, J.Y., Cho, J.-H., Lee, Y., and Choi, H.J. \textit{Neuron}, 2024.
+    
+    \item \href{https://doi.org/10.1016/j.heliyon.2024.e25561}{\color{sectioncolor} Development of an assessment method for freely moving nonhuman primates' eating behavior using manual and deep learning analysis}. Ha, L.J.*, Kim, M.*, Yeo, H.-G.*, \textbf{Baek, I.}, Kim, K., Lee, M., Lee, Y., and Choi, H.J. \textit{Heliyon}, 2023.
+    
+    \item \href{https://doi.org/10.1038/s41467-023-37044-4}{\color{sectioncolor} Lateral hypothalamic leptin receptor neurons drive hunger-gated food-seeking and consummatory behaviours in male mice}. Lee, Y.H.*, Kim, Y.-B.*, Kim, K.S.*, Jang, M.*, Song, H.Y., Jung, S.-H., Ha, D.-S., Park, J.S., Lee, J., Kim, K.M., Cheon, D.-H., \textbf{Baek, I.}, Shin, M.-G., Lee, E.J., Kim, S.J., and Choi, H.J. \textit{Nature Communications}, 2023.
 \end{customitemize}
-\null \hfill {\footnotesize *: Equal contribution}
-
-%% Presentations
-% \section*{Presentations}
+\begin{flushright}
+    \vspace{-10pt}{\footnotesize *: Equal contribution}
+\end{flushright}
 
 % Awards and Scholarships
 \section*{Awards and Scholarships}
@@ -75,8 +85,8 @@ Seoul National University College of Medicine \smallskip
 % Skills
 \section*{Skills}
 \begin{tabular}{@{}ll@{}}
-    Languages & Korean (native), English\\
-    Computer Languages & Python (experienced with PyTorch) \\
+    Languages & Korean (native), English \\
+    Programming languages & Python (experienced with PyTorch) \\
     Tools & \LaTeX
 \end{tabular}
 
