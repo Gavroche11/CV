@@ -3,11 +3,22 @@
 \usepackage{geometry}
 \usepackage{titlesec}
 \usepackage{enumitem}
-\usepackage{newtxtext}
+% \usepackage{newtxtext}
 \usepackage[colorlinks=true, linkcolor=black, urlcolor=black, citecolor=black]{hyperref}
 \usepackage{fontawesome}  % For icons
 \usepackage{xcolor}
+\usepackage{kotex}
 \usepackage{fontspec}
+
+% Use the system's "Times New Roman" (if installed on your OS)
+\setmainfont{Times New Roman}
+\xetexkofontregime{latin}[parens=latin, puncts=latin, alphs=latin, colons=latin, hyphens=latin]
+
+\setmainhangulfont{Noto Serif CJK KR}
+\setsanshangulfont{Noto Sans CJK KR}
+
+\usepackage{unicode-math}
+\setmathfont{XITS Math}
 
 % Define custom colors
 \definecolor{mycolor}{RGB}{0, 51, 102}
